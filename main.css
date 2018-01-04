@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+input {
+    min-width: 30%;
+    margin: 5px;
+}
+
+.calc {
+    margin-top: 20px;
+    width: 600px;
+    min-height: 520px;
+    padding: 20px;
+    font-size: large; 
+    background-color: #4779d1; 
+    border-radius: 5px;
+}
+
+.display {
+    min-height: 100%;
+}
+
+#output {
+    width: 590px;
+    height: 50px; 
+    margin-left: 0;
+    font-size: 24px; 
+    padding-left: 10px;
+}
+
+.input {
+    min-height: 100%; 
+    padding: 0;
+}
+
+.numbers {
+    width: 440px;
+    float: left;
+    text-align: left; 
+    display: block;
+}
+
+.operators {
+    width: 150px;
+    height: 440px;
+    float: right;
+    text-align: left;
+}
+
+#keypad {
+    height: 100px; 
+    width: 110px;
+    border: none;
+    font-size: large; 
+    padding: 0; 
+    border-radius: 5px;
+}
+
+#keypad:hover {
+    background-color: darkgrey;
+} 
+
+#operate {
+    margin: 5px 0px 11px 0px;
+    width: 100%;
+    height: 52px;
+    display: block;
+    border: none;
+    font-size: large; 
+    padding: 0; 
+    border-radius: 5px;
+} 
+
+#operate:hover {
+    background-color: darkgrey;
+} 
+
+#operate:first-child:hover {
+    background-color: #9e0909;
+}
+
+#operate:nth-child(2):hover {
+    background-color: #566a89;
+}
+
+.backspace {
+    background-color: #628edb; 
+    color: white;
+    font-size: medium;
+}
+
+.clear {
+    background-color: red;
+    color: white;
+    font-size: medium;
+}
